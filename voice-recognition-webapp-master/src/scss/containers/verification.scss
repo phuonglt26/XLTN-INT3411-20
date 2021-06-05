@@ -1,0 +1,46 @@
+.verification-page {
+
+
+	.stage-icon {
+		width: 10vw;
+	}
+
+	.record-stage {
+		margin: 10vh;
+		height: 80vh;
+		height: 80vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		.signal-bar {
+			width: 40vw;
+		}
+	}
+
+	.input-stage {
+		margin: 10vh;
+		height: 80vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.done-stage {
+		margin: 10vh;
+		height: 80vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+
+		span.done-message {
+			font-size: 3rem;
+			color: #2cbcc6;
+		}
+	}
+}
+.audio-react-recorder {
+	display: none;
+}
